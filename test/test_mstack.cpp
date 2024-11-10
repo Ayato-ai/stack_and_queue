@@ -80,5 +80,5 @@ TEST(Mstack, capacity_stack) {
 	stack_1.push(1); // 1
 	stack_1.push(2); // 1, 2
 
-	EXPECT_EQ(stack_1.capacity(), 3);
+	EXPECT_EQ(stack_1._capacity(), 5);
 }
